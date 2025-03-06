@@ -28,7 +28,6 @@ docs/index.html: reports/qmd_example.html
 # clean
 clean:
 	rm -rf results
-	rm -rf docs/index.html
 	rm -rf reports/qmd_example.html \
 		reports/qmd_example.pdf \
 		reports/qmd_example_files
